@@ -1,0 +1,30 @@
+/*##################### eagle logo css #####################*/
+#logo{border-radius:80px;width:100px;height:100px;transition:transform 0.2s;}
+#logo:hover{transform:scale(1.2);}
+/*#############navbar_list_items#############################*/
+.uldiv{margin-left: 300px;}
+.uldiv>ul>li{margin-left: 20px;}
+/*#############a_tags#############################*/
+.atags {color: black;font-size: x-large;transition: transform 0.1;}
+.atags:hover{color:lightslategray;transform:scale(1.1);}
+/*#############continer_div#############################*/
+.containerdiv{background-color: darkgray;transition: box-shadow 0.2s,border 0.2s;}
+.containerdiv:hover{box-shadow:0 4px 8px rgba(0, 0, 0, 0.8 );}
+/*#############   pictures #############################*/
+.pictures {margin-right: 40px;width: 20px;height: 20px;}
+.pictures:hover{color: gold;}
+.pictures2{margin-left: 15px;}
+/*############# main_page #############################*/
+.mainpage{display: grid; grid-template-areas:'area2 area1'
+                                             'area2 area1' ;margin-top: 100px;}
+#area1{grid-area:area1;}
+#area2{grid-area:area2 ;}
+.mainpagepic{width:500px;height:500px;}
+.hclass{text-align: center; margin-bottom: 50px;color:black ;}
+.buttonclass{    margin-left: 170px; color: orange; background: orangered;margin-right: 20px;}
+.phonelogo{width: 20px;height: 20px;}
+/*############# secondary_div #############################*/
+.secondarydiv{display: grid; grid-template-areas:'areax areay areaz' ;margin-top: 200px;}
+#areax{grid-area:areax;background-color: aqua;width:300px ;height: 500px; }
+#areay{grid-area:areay;background-color: brown;width:300px;height: 500px;}
+#areaz{grid-area:areaz;background-color: chartreuse;width:300px;height: 500px;}
