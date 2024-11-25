@@ -15,16 +15,14 @@
 .pictures:hover{color: gold;}
 .pictures2{margin-left: 15px;}
 /*############# main_page #############################*/
-.mainpage{display: grid; grid-template-areas:'area2 area1'
-                                             'area2 area1' ;margin-top: 100px;}
+.mainpage{display: grid; grid-template-areas:'area2 area1';margin-top: 100px;}
 #area1{grid-area:area1;}
 #area2{grid-area:area2 ;}
-.mainpagepic{width:500px;height:500px;}
-.hclass{text-align: center; margin-bottom: 50px;color:black ;}
-.buttonclass{    margin-left: 170px; color: orange; background: orangered;margin-right: 20px;}
+.mainpagepic{width:400px;height:400px}
+.hclass{text-align: center; margin-bottom: 50px;color:black ;font-family: cursive;}
+.buttonclass{    margin-left: 400px; color: orange; background: orangered;margin-right: 20px;}
 .phonelogo{width: 20px;height: 20px;}
 /*############# secondary_div #############################*/
-.secondarydiv{display: grid; grid-template-areas:'areax areay areaz' ;margin-top: 200px;}
-#areax{grid-area:areax;background-color: aqua;width:300px ;height: 500px; }
-#areay{grid-area:areay;background-color: brown;width:300px;height: 500px;}
-#areaz{grid-area:areaz;background-color: chartreuse;width:300px;height: 500px;}
+.secondarydiv{display: grid; grid-template-columns:auto auto auto ;
+    margin-top: 200px;margin-left: 300px;}
+.buttonclass2{color: orange; background: orangered;}
